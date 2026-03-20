@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
 public interface Mantenible {
+    double calcularCosteMantenimiento();
+
+    void realizarMantenimiento();
 }

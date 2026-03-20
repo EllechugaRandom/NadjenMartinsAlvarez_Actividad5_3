@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
 public interface ControlableRemotamente {
+    boolean conectarWifi();
+
+    void reiniciarDispositivo();
 }
